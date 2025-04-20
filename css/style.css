@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden !important;
+}
+
+.active {
+    background: -webkit-linear-gradient(120deg, rgba(218, 15, 237, 0.836) 0%, rgba(0, 213, 255, 0.829) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.active:hover {
+    font-weight: 600;
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.gradient-hover:hover a {
+    font-weight: 600;
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.btn-gradient {
+    background: -webkit-linear-gradient(120deg, rgba(218, 15, 237, 0.733) 0%, rgba(0, 213, 255, 0.705) 100%);
+    color: #fff;
+}
+
+.btn-gradient:hover {
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    color: #fff;
+}
+
+
+.social-media .fab {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all .7s ease-in;
+}
+
+.social-media .fab:hover {
+
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section {
+    min-height: 90vh;
+
+}
+
+.letter-spacing-md {
+    letter-spacing: 5px;
+}
+
+.letter-spacing-sm {
+    letter-spacing: 2px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all .7s ease-in;
+}
+
+a.text-secondary:hover {
+
+    border: none;
+    outline: none;
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn:hover {
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    border: none;
+    outline: none;
+}
+
+.tag {
+    padding: 2px;
+    color: #fff;
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 5px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.project-description {
+    font-size: 14px;
+}
+
+.box-shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all .7s ease-in;
+}
+.profile-pic {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1 / 1;
+    background-image: url('../img/PROFILE PHOTO @.jpg'); /* Update path if needed */
+    background-size: cover;
+    background-position: 0 -30px;
+    border-radius: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 0 auto;
+  }
+
+
+
+
+
+
+
+/*.profile-pic {
+    width: 500px;
+    height: 500px;
+    background-image: url('../img/anant.jpeg'); /* use ./img/anant.jpeg if CSS is in root 
+    background-size: cover;
+    background-position: 0 -30px;
+    border-radius: 40%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}*/
+
+
+input {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all .7s ease-in;
+}
+
+.form-container {
+    border-top: 1px solid rgba(51, 51, 51, 0.151);
+    padding: 50px 0 0 0;
+}
+
+.display-2 {
+    font-size: 4.2em;
+    font-family: 'DM Serif Display', serif;
+}
+
+.display-3 {
+    font-size: 2.8em;
+    font-family: 'DM Serif Display',
+        serif;
+
+}
+
+.navbar-brand {
+    font-family: 'DM Serif Display',
+        serif;
+}
+
+.serif {
+    font-family: 'DM Serif Display',
+        serif;
+}
+
+
+nav {
+    border-bottom: 2px #3333 dashed;
+}
+
+a:active {
+    border: 2px #3333 dashed;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 2px #3333 dashed;
+    text-decoration: none;
+}
+
+.banner {
+    overflow: hidden;
+}
+
+.bg-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+    z-index: -1;
+}
+/* ============================= */
+/* Project Cards Styles         */
+/* ============================= */
+.project-box {
+    transition: background 0.3s ease, color 0.3s ease;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+  }
+  
+  [data-theme="dark"] .project-box {
+    background-color: #2a2a2a !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  
+  .project-box .btn {
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 0.4rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .project-box .card-img-top {
+    border-radius: 0.5rem;
+  }
+  
+/* ==================== */
+/* Tech I am familiar with Starts */
+/* ==================== */
+/* ============================= */
+/* Tech Skill Icons & Boxes     */
+/* ============================= */
+
+.tech-icon {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon-box {
+    transition: background 0.3s ease, color 0.3s ease;
+    border-radius: 0.5rem;
+    flex-wrap: wrap; /* change to wrap if needed */
+    overflow: hidden;
+    min-width: 0;
+  }
+  .icon-box h3 {
+    font-size: 0.95rem;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    flex: 1;
+  }
+    
+  
+  /* Zoom effect on icon hover */
+  .icon-box:hover .tech-icon {
+    transform: scale(1.1);
+  }
+  
+  /* ============================= */
+  /* Dark Mode Styling             */
+  /* ============================= */
+  
+  /* Gradient text in dark mode */
+  [data-theme="dark"] .theme-text {
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  
+  /* Icon box appearance in dark mode */
+  [data-theme="dark"] .icon-box {
+    background-color: #2a2a2a !important; /* soft dark gray */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* subtle depth */
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+/* ==================== */
+/* Tech I am familiar with Ends */
+/* ==================== */
+/* Horizontal scrollable container */
+.video-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+}
+
+.video-item {
+  flex: 0 0 auto; /* Prevents items from shrinking and allows them to stay fixed size */
+  width: 100%;
+  max-width: 600px; /* Maximum width for each video */
+}
+
+.video-container::-webkit-scrollbar {
+  height: 8px; /* Scrollbar height */
+}
+
+.video-container::-webkit-scrollbar-thumb {
+  background-color: #888; /* Scrollbar color */
+  border-radius: 10px;
+}
+
+.video-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+
+
+@media (min-width: 768px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden !important;
+    }
+
+    section {
+        min-height: 80vh;
+    }
+
+    .display-2 {
+        font-size: 10em;
+    }
+
+    .form-container {
+        border-top: none;
+        border-left: 1px dashed rgba(51, 51, 51, 0.192);
+        padding: 50px 0 0 0;
+    }
+
+    .bg-banner {
+        width: 100%;
+        height: auto;
+        opacity: 0.1;
+    }
+     .about-text {
+        font-size: 1rem;
+        text-align: justify;
+        line-height: 1.7;
+        letter-spacing: 0.5px;
+        margin-bottom: 1rem;
+      }
+      
+      @media (max-width: 576px) {
+        .about-text {
+          font-size: 0.95rem;
+          line-height: 1.6;
+          padding: 0 10px;
+        }
+      } 
+    .collapse.navbar-collapse {
+      transition: max-height 0.4s ease-in-out;
+      overflow: hidden;
+    }
+}
