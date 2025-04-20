@@ -68,7 +68,7 @@
         ],
         "certificates": [
         {
-            "img": "../img/certificates/Kali linux.jpg",
+            "img": "img/certificates/Kali linux.jpg",
             "ket": "Kali Linux Fundamentals by SkillUP, India",
             "tags":[
                 "data_analysis",
